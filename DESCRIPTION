@@ -1,0 +1,21 @@
+Package: bm
+Type: Package
+Title: binomial regression model with a link function
+Version: 0.9.1.4
+Author: Chao Zhu
+Maintainer: Chao Zhu <chao.zhu@utas.edu.au>
+Description: Fit a binomial regression model (bm) with a link function 
+  by Exact method.The boundary of parameter space in log and identity link 
+  binomial model causes trouble to locate a maximum likelihood solution
+  and fails to converge when it is close to or on the boundary of space.
+  Exact method utilizes the property of boundary vectors to re-parametrize
+  the model without losing any information, and fits the model with no
+  convergence issues.
+Depends: R (>= 3.5.0)
+Imports: stats (>= 3.5.0), utils (>= 3.5.0)
+License: GPL (>=2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: knitr
+VignetteBuilder: knitr
