@@ -1,0 +1,2 @@
+# bm
+Fit a binomial regression model (bm) with a link function by Exact method.The boundary of parameter space in log and identity link binomial model causes trouble to locate a maximum likelihood solution and fails to converge when it is close to or on the boundary of space. Exact method utilizes the property of boundary vectors to re-parameterize the model without losing any information, and fits the model with no convergence issues.
